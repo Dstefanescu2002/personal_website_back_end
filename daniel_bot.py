@@ -4,6 +4,11 @@ import os
 from config import HF_API_KEY
 
 class DanielBot():
+    """
+        Wrapper class for Daniel Bot, containg function to produce a response\n
+        Usage: Create object; Call get_response(<question>) to generate a response
+    """
+
     def __init__(self):
         self.__parameters= {
             'max_new_tokens':25,  # number of generated tokens
