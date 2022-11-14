@@ -1,6 +1,5 @@
 import json
 import requests
-import os
 from config import HF_API_KEY
 
 class DanielBot():
